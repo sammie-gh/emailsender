@@ -3,6 +3,13 @@ java class email sender
 
 
 add the two java classs to your app 
+
+also add to gradle
+
+   implementation files('libs/activation.jar')
+    implementation files('libs/additional.jar')
+    implementation files('libs/mail.jar')
+
  next to use the below code 
 final ProgressDialog dialog = new ProgressDialog(BookingActivity.this);
         dialog.setTitle("Sending ");
